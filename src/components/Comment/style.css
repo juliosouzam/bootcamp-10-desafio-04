@@ -1,0 +1,31 @@
+.divider {
+  border: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.comments {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.comments img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.comments p {
+  padding: 0;
+  width: 100%;
+  font-size: 14px;
+  background: #eeeeee;
+  margin-left: 18px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.comments p span {
+  font-weight: bold;
+  margin-right: 5px;
+}

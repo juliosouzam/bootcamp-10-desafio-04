@@ -1,0 +1,48 @@
+section {
+  padding: 5px 20px;
+  width: 100%;
+  max-width: 800px;
+
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section p {
+  padding: 14px 0 20px 0;
+  font-size: 14px;
+  color: #3e3e3e;
+  line-height: 22px;
+}
+
+div.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 10px;
+}
+
+div.header img {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+div.header .user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+div.header .user-info spam {
+  color: #4a4a4a;
+  font-size: 14px;
+}
+
+div.header .user-info small {
+  color: #9a9a9a;
+  font-size: 11px;
+}
